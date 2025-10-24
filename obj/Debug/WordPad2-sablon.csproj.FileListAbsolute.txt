@@ -1,0 +1,12 @@
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\bin\Debug\WordPad2.exe.config
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\bin\Debug\WordPad2.exe
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\bin\Debug\WordPad2.pdb
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2-sablon.csproj.AssemblyReference.cache
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2.Form1.resources
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2.FrmBul.resources
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2.Properties.Resources.resources
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2-sablon.csproj.GenerateResource.cache
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2-sablon.csproj.CoreCompileInputs.cache
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2.exe
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2.pdb
+E:\OneDrive - Bartın Üniversitesi\Bartın - Dersler\0- Ders Dökümanları\Görsel Programlama II (MYO)\Uygulama dosyaları\WordPad2-sablon\WordPad2\obj\Debug\WordPad2.FrmDegistir.resources

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D312FB8F-4022-48BC-ADC3-3018CDD43F0E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WordPad2</RootNamespace>
+    <AssemblyName>WordPad2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDegistir.Designer.cs">
+      <DependentUpon>FrmDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBul.Designer.cs">
+      <DependentUpon>FrmBul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDegistir.resx">
+      <DependentUpon>FrmDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBul.resx">
+      <DependentUpon>FrmBul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-circle-add_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-circle-remove_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-help_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-bold_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-color_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-color-highlight_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-fonts_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-italic_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-size-decrease_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-size-increase_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-strikethrough_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-subscript_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-superscript_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-underline_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard-copy_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard-cut_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colors_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\command-redo_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\command-undo_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-text_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert-picture_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-bullets_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list-numbers_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-align-center_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-align-justified_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-align-left_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-align-right_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-indent-left_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-unindent-left_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-preview_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replace_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-as_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select-all_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrap-text%4032px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-in_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-out_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipboard-paste_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-spacing-before_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-align-center_small%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-align-left_small%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-align-right_small%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph-spacing-before_small%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-bold_small%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-bold-small_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-italic_small%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-italic_large%401x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-underline-small_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-strikethrough-small_large%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-color-highlight_large%401x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\character-color_large%401x1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tool-eraser-auto%401x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select-all_large%401x1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

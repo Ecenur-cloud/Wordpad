@@ -1,0 +1,12 @@
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\bin\Debug\WordPad2.exe.config
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\bin\Debug\WordPad2.exe
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\bin\Debug\WordPad2.pdb
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.Form1.resources
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.FrmDeğiştir.resources
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.FrmBul.resources
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.Properties.Resources.resources
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.csproj.GenerateResource.cache
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.csproj.CoreCompileInputs.cache
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.exe
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.pdb
+C:\Users\Bayram\source\repos\WordPad2\WordPad2\obj\Debug\WordPad2.csprojAssemblyReference.cache
